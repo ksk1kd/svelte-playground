@@ -1,9 +1,10 @@
 <script lang="ts">
+import FormInputBinding from './components/FormInputBinding.svelte'
 </script>
 
 <main>
   <div class="container">
-    content
+    <FormInputBinding />
   </div>
 </main>
 
