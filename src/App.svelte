@@ -1,12 +1,14 @@
 <script lang="ts">
 import ComponentProps from './components/ComponentProps.svelte'
 import ControlFlow from './components/ControlFlow.svelte'
+import Derived from './components/Derived.svelte'
 import Effect from './components/Effect.svelte'
 import FormInputBinding from './components/FormInputBinding.svelte'
 </script>
 
 <main>
   <div class="container">
+    <Derived />
     <Effect />
     <ControlFlow />
     <ComponentProps />
