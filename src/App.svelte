@@ -4,10 +4,12 @@ import ControlFlow from './components/ControlFlow.svelte'
 import Derived from './components/Derived.svelte'
 import Effect from './components/Effect.svelte'
 import FormInputBinding from './components/FormInputBinding.svelte'
+import Snippet from './components/Snippet.svelte'
 </script>
 
 <main>
   <div class="container">
+    <Snippet />
     <Derived />
     <Effect />
     <ControlFlow />
